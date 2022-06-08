@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  background-color: #F55A5A;
+  min-height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+header > h1 {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: -0.05em;
+  padding: 0.4rem;
+}
+
+.card--section {
+  display: flex;
+  margin: 1rem 2.5rem;
+  text-align: left;
+  color: #2B283A;
+}
+
+.travel--photo {
+  min-width: 125px;
+  max-width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card--photo {
+  height: 100%;
+
+}
+
+.travel--details {
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  margin-left: 1.25rem;
+}
+
+.travel--location {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin: 0.2rem;
+  padding-left: 0.25rem;
+  padding-right: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.travel--location a {
+  font-size: 0.7rem;
+  color: #918E9B;
+}
+
+h2 {
+  margin: 0;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+}
+
+p {
+  margin: 0;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
+
+hr {
+  margin: 0 2.5rem;
+  display: block; 
+  border: 0; 
+  border-bottom: 1px solid #F5F5F5;
+}
