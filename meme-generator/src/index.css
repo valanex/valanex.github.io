@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  margin: 0;
+  padding: 0 1.25rem;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: white;
+} 
+
+header > img {
+  height: 26px;
+}
+
+header > h1 {
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+  letter-spacing: -1.4px;
+  font-weight: 500;
+  margin-right: auto; /* pushes next element to the far right */
+}
+
+header > h2 {
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
