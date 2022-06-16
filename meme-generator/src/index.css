@@ -40,13 +40,12 @@ header > h2 {
 }
 
 .meme--form {
-  margin: 1.75rem;
+  margin: 1.75rem 2.25rem;
   display: flex;
   flex-flow: column;
 }
 
 .inputs {
-  margin: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -67,7 +66,7 @@ header > h2 {
 }
 
 .meme--form button {
-  margin: 0.5rem;
+  margin: 1rem 0;
   height: 2.5rem;
   background: linear-gradient(to right, #672280, #A626D3);
   color: white;
@@ -80,7 +79,50 @@ header > h2 {
   cursor: pointer;
 }
 
-.meme--form img {
+.meme--form button img {
   height: 1rem;
   padding: 0 0.1rem;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
