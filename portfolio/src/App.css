@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+body {
+  background-color: white;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #8FBC8B;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0.5rem 2rem;
+  color: seagreen;
 }
 
-.App-link {
-  color: #61dafb;
+nav h1 {
+  margin-right: auto;
+  color: #8FBC8B;
+  font-family: 'Oxanium', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+  margin: 0.5rem;
+  font-family: 'Oxanium', sans-serif;
+}
+
+nav a:hover {
+  color: darkolivegreen;
+  background-color: honeydew;
+}
+
+section {
+  color: darkolivegreen;
+  padding: 2rem;
+}
+
+section h2 {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.intro {
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+.introPic img {
+  position: relative;
+  height: 15rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  z-index: 1;
+}
+
+.introSummary {
+  position: relative;
+  top: -10rem;
+  left: 4rem;
+  background-color: #C8E6C9;
+  opacity: 0.9;
+}
+
+.introSummary h2, h4 {
+  top: 20rem;
+  left: 20rem;
+}
+
+nav p {
+  padding: 0 0.5rem;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 26px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D4EFDF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: darkseagreen;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px darkseagreen;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 25px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
