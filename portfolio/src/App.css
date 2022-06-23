@@ -1,48 +1,66 @@
 body {
-  background-color: white;
-
+  background: rgb(15,40,116);
+  background: linear-gradient(90deg, rgba(15,40,116,1) 0%, rgba(132,139,216,1) 100%);
 }
 
 a {
-  color: #8FBC8B;
+  color: white;
 }
 
 nav {
   display: flex;
   align-items: center;
-  padding: 0.5rem 2rem;
-  color: seagreen;
+  padding: 0.5rem 3rem;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
 nav h1 {
   margin-right: auto;
-  color: #8FBC8B;
-  font-family: 'Oxanium', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 nav a {
   margin: 0.5rem;
-  font-family: 'Oxanium', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav a:hover {
   color: darkolivegreen;
-  background-color: honeydew;
+  background-color: white;
 }
 
 section {
-  color: darkolivegreen;
-  padding: 2rem;
+  color: #3C403D;
+  padding: 3rem;
 }
 
-section h2 {
-  font-family: 'Kdam Thmor Pro', sans-serif;
+.intro h2, h4 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro h2{
+  font-size: 8rem;
+}
+
+.intro h4 {
+  font-size: 4rem;
+}
+
+.occTitle {
+  color: darkseagreen;
+  font-weight: bold;
 }
 
 .intro {
-  width: 80%;
-  border-radius: 10px;
-
+  background-color: white;
+  opacity: 0.3;
 }
 
 .introPic img {
@@ -50,20 +68,6 @@ section h2 {
   height: 15rem;
   border-radius: 15px;
   box-shadow: 5px 5px 5px grey;
-  z-index: 1;
-}
-
-.introSummary {
-  position: relative;
-  top: -10rem;
-  left: 4rem;
-  background-color: #C8E6C9;
-  opacity: 0.9;
-}
-
-.introSummary h2, h4 {
-  top: 20rem;
-  left: 20rem;
 }
 
 nav p {
@@ -100,7 +104,7 @@ nav p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #D4EFDF;
+  background-color: #A3BCB6;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -118,11 +122,11 @@ nav p {
 }
 
 input:checked + .slider {
-  background-color: darkseagreen;
+  background-color: #39603D;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px darkseagreen;
+  box-shadow: 0 0 1px #39603D;
 }
 
 input:checked + .slider:before {

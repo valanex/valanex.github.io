@@ -9,7 +9,7 @@ export default function Intro() {
             </div>
             <div className="introSummary">
                 <h2>Hi, I'm Angela.</h2>
-                <h4>I'm a Software Engineer in San Diego, California. </h4>
+                <h4>I'm a <span className="occTitle">Software Engineer</span> in San Diego, California. </h4>
                 <p>a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow a meow a la meow </p>
             </div>
         </section>
