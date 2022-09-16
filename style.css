@@ -1,0 +1,165 @@
+body {
+    background-color: #C0C0C0;
+    color: #606060;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Oxanium', Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 2.5rem 0;
+}
+
+h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    margin: 1.5rem 0;
+    line-height: 1.5rem;
+    
+}
+
+a {
+    color: olivedrab;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+nav {
+    font-family: 'Oxanium', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 1.5rem;
+    max-width: 280px;
+    margin: auto;
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
+section {
+    background-color: #D9D9D9;
+    width: 90%;
+    min-width: 280px;
+    max-width: 800px;
+    padding: 4% 10px;
+    margin: 2rem auto;
+    font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.about-me-sec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-me-pfp {
+    width: 25%;
+    min-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+.about-me-pfp img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-me-content {
+    width: 70%;
+    min-width: 12rem;
+    text-align: left;
+}
+
+.about-me-content h2 {
+    margin: 0;
+    line-height: 2.2rem;
+}
+
+.about-me-content span {
+    color: black;
+}
+
+.about-me-content img {
+    width: 2.5rem;
+    margin-right: 0.75rem;
+}
+
+
+.skills-sec {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.skills-sec p {
+    margin: 0.5rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 1.25rem;
+}
+
+.skill-single {
+    min-width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.skills-list img {
+    height: 50px;
+}
+
+.skills-list p {
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.projects-sec {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.projects-item {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.projects-img {
+    width: 30%;
+    min-width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.projects-item img {
+    width: 100%;
+}
+
+.projects-details {
+    width: 60%;
+    text-align: left;
+}
+
+footer {
+    font-family: 'Oxanium', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
